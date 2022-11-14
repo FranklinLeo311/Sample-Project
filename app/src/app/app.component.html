@@ -1,0 +1,28 @@
+<link
+  rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+/>
+<div class="container">
+  <nav class="navbar navbar-fixed-top nav-tabs">
+    <ul class="nav navbar-nav navbar-right">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['./login']">Univercity</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link" routerLink="/home">Course <span class="caret" ></span></a>
+        <ul class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/contact">Contect</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<router-outlet></router-outlet>

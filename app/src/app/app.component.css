@@ -1,0 +1,45 @@
+.navbar {
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+  background-color: #e9ebf2;
+  border: 0;
+  font-size: 15px !important;
+  font-weight :900;
+  letter-spacing: 4px;
+  opacity: 0.9;
+  padding: 10px 17px;
+}
+.navbar li {
+  padding: 0px 20px;
+}
+
+.navbar a:hover, .dropdown:hover {
+  background-color: rgb(255, 251, 251);
+}
+
+ .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+ .dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
